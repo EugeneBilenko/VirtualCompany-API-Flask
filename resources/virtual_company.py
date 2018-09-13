@@ -2,6 +2,7 @@ from flask import jsonify, Blueprint
 from flask_restful import Resource, Api, reqparse, inputs, fields
 import models
 
+
 virtualco_fields = {
 	'id': fields.Integer,
 	'name': fields.String
